@@ -1,0 +1,168 @@
+body {
+  font-family: arial, sans-serif;
+
+}
+
+h1 {
+  color: #878787;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  color: rgb(135, 135, 135);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
+}
+
+li:first-letter {
+  text-transform: capitalize;
+}
+
+.weather-app-wrapper {
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+.weatherInfo {
+  margin-bottom: 20px;
+}
+
+.container {
+  padding: 20px;
+  background: #EEF7FF;
+  border: 1px solid #dadde1;
+  border-radius: 5px;
+}
+
+small {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #555;
+}
+
+.temperature {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.weather-temperature img {
+  margin-right: 5px;
+  height: 64px;
+  width: 64px;
+}
+
+.weather-temperature strong {
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+}
+
+.units {
+  font-size: 35px;
+}
+
+.sideColumn {
+  list-style-type: none;
+  padding: 0;
+  text-align: right;
+}
+
+.WeatherForecast .col {
+  text-align: center;
+  padding: 10px;
+}
+
+.WeatherForecast img {
+  width: 42px;
+}
+
+.weather-forecast {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.forecast-day {
+  text-align: center;
+}
+
+.forecast-day img {
+  width: 50px;
+  height: 50px;
+}
+
+.clear-sky {
+  background-image: url('../images/clear-sky.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.few-clouds {
+  background-image: url('../images/few-clouds.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.scattered-clouds {
+  background-image: url('../images/scattered-clouds.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.broken-clouds {
+  background-image: url('../images/broken-clouds.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.shower-rain {
+  background-image: url('../images/shower-rain.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.rain {
+  background-image: url('../images/rain.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.thunderstorm {
+  background-image: url('../images/thunderstorm.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.snow {
+  background-image: url('../images/snow.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.mist {
+  background-image: url('../images/mist.jpg');
+  background-size: cover;
+  background-position: center;
+}

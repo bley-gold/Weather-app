@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather App</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+  <link rel="stylesheet" href="src/style.css" />
+  <script src="https://kit.fontawesome.com/3b66d95c07.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+<div id="root">
+  <div class="weather-app-wrapper">
+    <div class="container">
+      <div class="Weather">
+        <form id="search-form" class="mb-3">
+          <div class="row">
+            <div class="col-9">
+              <input
+                      type="search"
+                      id="city-input"
+                      placeholder="🔎Enter a city..."
+                      class="form-control search-input"
+                      autofocus="on"
+                      autocomplete="on"
+                      size="40"
+              />
+            </div>
+            <div class="col-3 p-0">
+              <input type="submit" class="btn btn-primary w-100" value="Search">
+            </div>
+          </div>
+        </form>
+        <div class="weatherInfo">
+          <div class="row">
+            <div class="col-6">
+              <h1 id="city">Gauteng, Pretoria</h1>
+              <ul>
+                <li>Last updated: <span id="date"></span></li>
+                <li id="description"></li>
+              </ul>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <div class="clearfix weather-temperature">
+                  <img src="" alt="Clear" id="icon" class="float-left" />
+                  <div class="float-left">
+                    <strong id="temperature"></strong><span class="units"><a href="#" id="celsius-link"></a>°C | <a href="#" id="fahrenheit-link">°F</a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6">
+                <ul>
+                  <li>Humidity: <span id="humidity"></span>%</li>
+                  <li>Wind: <span id="wind"></span> m/h</li>
+                </ul>
+              </div>
+            </div>
+            <hr />
+            <div class="WeatherForecast row">
+              <div id="forecast">
+                <!-- Weather forecast will be injected here -->
+              </div>
+              <!-- Weather forecast will be injected here -->
+            </div>
+          </div>
+        </div>
+        <small>
+          This project was coded by Blessings Mwale.
+          </small>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="src/script.js"></script>
+</body>
+</html>
