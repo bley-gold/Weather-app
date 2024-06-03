@@ -9,3 +9,8 @@ This is a simple weather application built using HTML, CSS, and JavaScript. The 
 - Display weather forecast for the next 5 days
 - Background image changes based on the weather condition
 - Responsive design using Bootstrap
+
+### Screenshots:
+![Screenshot 2](https://github.com/bley-gold/Weather-app/blob/master/Screenshot1.jpg)
+![Screenshot 2](https://github.com/bley-gold/Weather-app/blob/master/Screenshot2.jpg)
+![Screenshot 2](https://github.com/bley-gold/Weather-app/blob/master/Screenshot3.jpg)
